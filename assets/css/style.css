@@ -171,6 +171,10 @@ iframe {
     position: relative;
     text-transform: none;
 }*/
+.navbar-light .navbar-nav .nav-link {
+    color: #000000e8;
+}
+
 .tv-dropdown-toggle::after {
     content: "";
     font-family: "FontAwesome";
