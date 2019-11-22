@@ -64,9 +64,8 @@
 	import axios from 'axios'
 	import InfiniteLoading from 'vue-infinite-loading'
 	import postimageDefault from '~/assets/images/images.jpg'
-	const HOST_URL = 'https://knowzone.ghostzones.ml/ghost/api/v2/content/';
-	const API_KEY = '688d1a6cb10c9e8456723dd679';
-	
+	import {  API_KEY, HOST_URL } from '../../config/constants'
+
 	export default {
 		name: 'Tags',
 		

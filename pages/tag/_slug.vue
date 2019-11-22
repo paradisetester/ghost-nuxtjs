@@ -93,26 +93,4 @@ data: () => ({
 }
 </script>
 
-<style scoped>
-@import 'node_modules/slick-carousel/slick/slick.css';
-.blog-post {
-  margin: 25px 0;
-  align-content: center;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
 
-.title {
-  margin: 50px 0;
-}
-
-p {
-  color: #000;
-  margin: 15px 0 5px;
-  max-width: 450px;
-  line-height: 1.44;
-}
-</style>

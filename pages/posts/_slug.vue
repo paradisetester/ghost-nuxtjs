@@ -93,8 +93,7 @@ import axios from 'axios'
 import { ghostAPI, tagsIndexFields } from '@/utils/ghost'
 import moment from 'moment'
 
-const HOST_URL = 'https://knowzone.ghostzones.ml/ghost/api/v2/content/';
-const API_KEY = '688d1a6cb10c9e8456723dd679';
+import {  API_KEY, HOST_URL } from '../../config/constants'
 
 export default {
 data: () => ({   
