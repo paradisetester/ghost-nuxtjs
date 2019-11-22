@@ -22,7 +22,7 @@
                                     <li class="nav-item" v-for="navs in navigation">
                                         <a class="nav-link"  :href="navs.url">{{navs.label}}</a>
                                     </li> 
-									 <li class="list-inline"><a onclick="openNav()" class="tv-search-btn"><i class="ti-search"></i></a></li>	
+									 <li class="nav-item search-list"><a href="/search" class="tv-search-btn"><i class="ti-search"></i></a></li>	
                                 </ul>
                             </div>
 
@@ -30,19 +30,7 @@
                     </div>
                 </div>
                 <!-----------End----------------->
-                <!-----------Search Section----------------->
-                <div class="tv-search-overlay" id="search_nav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                    <div class="search-overlay-content">
-                        <div class="container tv-search-wrapper">
-                            <form class="tv-search-form">
-                                <input value="" name="s" class="sh-header-search-side-input" placeholder="Enter a keyword to search..." type="text">
-                                <button type="submit" class="tv-search-button"><i class="ti-search"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <!-----------End----------------->
+                
             </header>
 			</div>
 </template>

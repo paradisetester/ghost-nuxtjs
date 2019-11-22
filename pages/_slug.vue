@@ -72,6 +72,9 @@
                                            <li  v-for="tag in tags" >									
 											<a :href="'/tag/'+tag.slug">{{tag.name}} <span class="count">{{tag.count.posts}}</span></a></li>
                                         </ul>
+										<div class="view-all">
+											<a href="/tag" class="view-all-btn" >View All Categories</a>
+										</div>
                                     </div>
                                 </div>
                             </div>

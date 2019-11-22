@@ -30,10 +30,7 @@
                                     </div>
                                     <div class="tv-post-content-holder">
                                         <div class="post-extra-details">
-                                            <div class="post-categories">
-												
-												<a :href="'/tag/'+tag.slug" v-for="tag in post.tags">{{tag.name}}</a> 
-											</div>
+                                            
                                             <div class="post-title">
                                                 <h2>{{post.title}}</h2>
                                             </div>
@@ -77,7 +74,9 @@
                                            <li  v-for="tag in tags" >									
 											<a :href="'/tag/'+tag.slug">{{tag.name}} <span class="count">{{tag.count.posts}}</span></a></li>
                                         </ul>
-										<a href="tag" class="view-all" >View All Categories</a>
+										<div class="view-all">
+								<a href="tag" class="view-all-btn" >View All Categories</a>
+								</div>
                                     </div>
                                 </div>
                             </div>

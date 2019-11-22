@@ -26,7 +26,7 @@
                                     <div class="tv-footer-trend-slider-arrow-box" style="position: relative">
                                         <div class="tv-heading-section tv-footer-widget-title">
                                             <div class="tv-heading-title">
-                                                <h3 class="tv-white-text">Trending Slider</h3>
+                                                <h3 class="tv-white-text">Trending Posts</h3>
                                             </div>
                                             <div class="tv-seperator-content">
                                                 <div class="tv-seperator-line"></div>

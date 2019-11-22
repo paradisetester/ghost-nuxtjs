@@ -22,7 +22,7 @@
 		<div class="container">
 			<div class="row tv-blog-style-grid">
 		
-				<div class="row">
+				
                         <div class="col-lg-4 col-md-6 col-sm-6" v-for="fpost in posts">
                             <article class="author-blog">
                                 <div class="post-thumnail">
@@ -51,10 +51,7 @@
                                     </div>
                                 </div>
                             </article>
-                        </div>
-                        
-                    </div>
-						
+                        </div>						
 		</div>				
 		</div>				
     </section>

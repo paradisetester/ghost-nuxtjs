@@ -130,7 +130,9 @@
                                 </div>
                                 </div>
                             </article>  
-							<a href="posts" class="view-all" >View All Posts</a>
+							<div class="view-all">
+							<a href="posts" class="view-all-btn" >View All Posts</a>
+							</div>
                         </div>
                         <!-----------End----------------->
 
@@ -184,7 +186,9 @@
 									<span class="count">{{tag.count}}</span></a>
 								</li>                                           
 								</ul>
-								<a href="tag" class="view-all" >View All Categories</a>
+								<div class="view-all">
+								<a href="tag" class="view-all-btn" >View All Categories</a>
+								</div>
 							</div>
                                 </div>
                                
