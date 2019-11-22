@@ -16,7 +16,7 @@
                                         </div>
                                     </div>
                                     <div class="tv-tag-list">
-                                        <a :href="tag.slug" class="tv-tag-link"  v-for="tag in tags">{{tag.name}}</a>
+                                        <a :href="'/tag/'+tag.slug" class="tv-tag-link"  v-for="tag in tags">{{tag.name}}</a>
                                        
                                     </div>
                                 </div>
