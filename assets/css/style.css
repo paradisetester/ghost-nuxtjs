@@ -50,7 +50,7 @@ a:hover {
     color: #d4c83a;
     outline: none !important;
     text-decoration: none;
-}
+	}
 
 ul{
     margin: 0;
@@ -174,7 +174,9 @@ iframe {
 .navbar-light .navbar-nav .nav-link {
     color: #000000e8;
 }
-
+nav.navbar.navbar-light.bg-info.navbar-expand-lg {
+    background-color: #f8f9fa !important;
+}
 .tv-dropdown-toggle::after {
     content: "";
     font-family: "FontAwesome";
