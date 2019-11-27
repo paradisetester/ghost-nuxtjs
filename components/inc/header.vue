@@ -10,7 +10,7 @@
                     </div>
                 </div>
 
-              <!-----------Navigation----------------->
+             
 			    <div>
 				  <b-navbar toggleable="lg" type="light" variant="info">
 					<b-navbar-brand href="#"></b-navbar-brand>
@@ -25,11 +25,7 @@
 					  
 					</b-collapse>
 				  </b-navbar>
-				</div>
-
-
-               
-                <!-----------End----------------->
+				</div>              
                 
             </header>
 			</div>

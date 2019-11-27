@@ -1,7 +1,5 @@
 <template>
   <section>
-
-				   <!-----------Slider Section----------------->
           <div class="carousel">
    <component
       :is="slickComp"
@@ -31,8 +29,7 @@
                         
     </component>
   </div>
-            <!-----------End slider----------------->
-			 <!-----------Author Blog----------------->
+          
             <section class="tv-author-block tv-section-padding">
                 <div class="container">
                     <div class="tv-heading-section">
@@ -77,12 +74,11 @@
                     </div>
                 </div>
             </section>
-            <!-----------End----------------->
-			 <!-----------Middle content----------------->
+           
             <section class="tv-content-container tv-section-padding">
                 <div class="container">
                     <div class="row">
-                        <!-----------Latest Blog----------------->
+                     
                         <div class="col-xl-8 col-lg-8 col-md-12 order-xl-1 order-lg-1 order-2">
                             <div class="tv-heading-section tv-offspace-bottom-40">
                                 <div class="tv-heading-title">
@@ -134,9 +130,7 @@
 							<a href="posts" class="view-all-btn" >View All Posts</a>
 							</div>
                         </div>
-                        <!-----------End----------------->
-
-                        <!-----------Right Sidebar----------------->
+                      
                         <div class="col-xl-4 col-lg-4 col-md-12 order-1 tv-right-sidebar" id="sidebar">
                             <div class="tv-sidebar-container">
                                 <div class="tv-widget tv-widget-about"  v-for="author in authors">
@@ -215,12 +209,11 @@
                                 </div>
                             </div>
                         </div>
-                        <!-----------End----------------->
+                      
                     </div>
                 </div>
             </section>
-            <!-----------End----------------->
-
+          
     
   </section>
 </template>
@@ -290,9 +283,7 @@ export default {
 	  limit: 10,
 	  include: 'count.posts'
     });
-	
- console.log(tags);
-    return {
+	 return {
       posts,featur_post,authors,tags
     }
   }
