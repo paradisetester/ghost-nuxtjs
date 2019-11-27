@@ -7,8 +7,8 @@
       :options="slickOptions"	   
     >
 						<div class="swiper-slide swiper-slide-duplicate" style="width: 449.667px;" v-for="fpost in featur_post">
-                            <div class="tv-featured-post-image"  v-lazy-container="{ selector: 'img' }">
-                                <img :data-src="fpost.feature_image"  alt="post-image">
+                            <div class="tv-featured-post-image" >
+                                <img :src="fpost.feature_image"  alt="post-image">
                                 <div class="tv-overlay-light-dark"></div>
                             </div>
                             <div class="tv-featured-content-wrapper">
@@ -222,16 +222,10 @@
 import Vue from 'vue'
 import { ghostAPI, postIndexFields, authorsIndexFields, tagsIndexFields } from '@/utils/ghost'
 import moment from 'moment'
-import VueLazyload from 'vue-lazyload'
 import Error from '~/assets/images/loading.jpg'
 import Loading from '~/assets/images/loading.jpg'
 
-Vue.use(VueLazyload, {
-  preLoad: 1.3,
-  error: Error,
-  loading: Loading,
-  attempt: 1
-})
+
 
 export default { 
   data: () => ({
