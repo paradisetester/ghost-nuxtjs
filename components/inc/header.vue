@@ -5,7 +5,7 @@
                 <div class="tv-middle-header">
                     <div class="container">
                         <div class="tv-logo text-center">
-                            <a href="/"><img :src="setting.logo" alt="logo" width="208px" :title="setting.title"></a>
+                            <a href="/"><img src="~assets/images/logo.png" data-src="~assets/images/logo.png" alt="logo" width="208px" ></a>
                         </div>
                     </div>
                 </div>
