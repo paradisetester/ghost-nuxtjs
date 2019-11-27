@@ -6,7 +6,7 @@
       ref="slick" 
       :options="slickOptions"	   
     >
-						<div class="swiper-slide swiper-slide-duplicate" style="width: 449.667px;" v-for="fpost in featur_post.slice(0,4)">
+						<div class="swiper-slide swiper-slide-duplicate" style="width: 449.667px;" v-for="fpost in featur_post">
                             <div class="tv-featured-post-image"  v-lazy-container="{ selector: 'img' }">
                                 <img :data-src="fpost.feature_image"  alt="post-image">
                                 <div class="tv-overlay-light-dark"></div>
