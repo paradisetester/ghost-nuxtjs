@@ -1,0 +1,41 @@
+{
+  "name": "Knowzone",
+  "version": "1.0.0",
+  "description": "My tiptop Nuxt.js project",
+  "author": "paradisetester",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "bootstrap-vue": "^2.0.0",
+    "bootstrap": "^4.1.3",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/moment": "^1.4.0",
+    "@tryghost/content-api": "^1.3.4",
+<<<<<<< HEAD
+=======
+    "axios": "^0.19.0",
+    "bootstrap": "^4.4.0",
+    "bootstrap-vue": "^2.1.0",
+    "nuxt": "^2.0.0",
+    "slick-carousel": "^1.6.0",
+>>>>>>> df5340809520b68c9672bdae9d59a9fbaa1bfbf3
+    "vue": "^2.6.10",
+    "vue-infinite-loading": "^2.4.4",
+    "vue-lazyload": "^1.3.3",
+    "vue-slick": "^1.1.15",
+    "vuejs-paginate": "^2.1.0"
+  },
+  "devDependencies": {
+    "jquery": "*",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0"
+  }
+}
