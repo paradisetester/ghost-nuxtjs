@@ -10,6 +10,7 @@
                             <div class="tv-featured-post-image" >
                                 <img :src="fpost.feature_image"  alt="post-image">
                                 <div class="tv-overlay-light-dark"></div>
+								
                             </div>
                             <div class="tv-featured-content-wrapper">
                                 <div class="post-categories">
