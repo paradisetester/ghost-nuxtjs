@@ -53,7 +53,7 @@
 													<a :href="'/tag/'+tag.slug"  v-for="tag in post.tags" v-if="tag.name">{{tag.name}}, </a> 
 													<a href="tag.html">Beauty</a></div>
                                                 <div class="post-title">
-                                                    <h5><a :href="'posts/'+post.slug">{{post.title}}</a></h5>
+                                                    <h5><a :href="'/posts/'+post.slug">{{post.title}}</a></h5>
                                                 </div>
                                             </div>
                                         </article>  

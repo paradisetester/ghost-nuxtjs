@@ -18,7 +18,7 @@
 
 					<b-collapse id="nav-collapse" is-nav>
 					  <b-navbar-nav class="navbar-nav tv-reset-navbar">
-						<b-nav-item class="nav-item" :href="navs.url"  v-for="navs in navigation">{{navs.label}}</b-nav-item>
+						<b-nav-item class="nav-item" :href="navs.url"  v-for="navs in navigation" v-bind:key="navs.label">{{navs.label}}</b-nav-item>
 						<b-nav-item class="nav-item" href="/search"><i class="ti-search"></i></b-nav-item>
 					  </b-navbar-nav>
 
