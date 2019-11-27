@@ -24,8 +24,7 @@ export default {
   */
   css: [
 	  '@/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css',
-	  '@/assets/fonts/themify-icons/themify-icons.css',
-	  
+	  '@/assets/fonts/themify-icons/themify-icons.css',	  
 	  '@/assets/css/bootstrap.css',
 	  '@/assets/css/swiper.css',
 	  '@/assets/css/slick.css',
@@ -49,7 +48,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-	   '@nuxtjs/pwa'
+	   
   ],
   /*
   ** Build configuration
@@ -63,7 +62,8 @@ export default {
           })
         ]
       }
-    }
+    },
+	maxChunkSize: 300000,
   },
   generate: {
     routes: [
