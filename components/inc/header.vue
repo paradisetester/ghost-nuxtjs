@@ -36,7 +36,7 @@
 <script>
 import axios from 'axios'
 import moment from 'moment'
-import backgroundUrl from '~/assets/images/footer-bg.jpg'
+
 import {  API_KEY, HOST_URL } from '../../config/constants'
 	 
 export default {

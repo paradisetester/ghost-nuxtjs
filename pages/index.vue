@@ -223,9 +223,6 @@
 import Vue from 'vue'
 import { ghostAPI, postIndexFields, authorsIndexFields, tagsIndexFields } from '@/utils/ghost'
 import moment from 'moment'
-import Error from '~/assets/images/loading.jpg'
-import Loading from '~/assets/images/loading.jpg'
-
 
 
 export default { 
